@@ -1,6 +1,7 @@
-import Navbar from '@/components/navbar'
 import './globals.css'
+import { ReactNode } from 'react'
 import { Inter } from 'next/font/google'
+import Navbar from '@/components/navbar'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -9,11 +10,7 @@ export const metadata = {
   description: 'Meu Portfólio Pessoal',
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body className={inter.className}>

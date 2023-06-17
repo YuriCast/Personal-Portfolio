@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState } from 'react'
-import { AiOutlineClose, AiOutlineMenu, } from "react-icons/ai"
+import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
@@ -11,22 +11,44 @@ const Navbar = () => {
   }
 
   return (
-    <header className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4'>
-      <h1 className='w-full text-3xl font-bold text-[#6E07F3] cursor-pointer'>YC.</h1>
-      <ul className='hidden md:flex'>
-        <li className='py-1 px-4 text-[#141C3A] cursor-pointer hover:text-[#6E07F3] transition-colors duration-200 ease-in-out'>About</li>
-        <li className='py-1 px-4 text-[#141C3A] cursor-pointer hover:text-[#6E07F3] transition-colors duration-200 ease-in-out'>Projects</li>
-        <li className='py-1 px-4 text-[#6E07F3] border-2 border-[#6E07F3] rounded-2xl cursor-pointer bg-white hover:bg-[#6E07F3] hover:text-white transition-colors duration-200 ease-in-out'>Contact</li>
+    <header className="mx-auto flex h-24 max-w-[1240px] items-center justify-between px-4">
+      <h1 className="w-full cursor-pointer text-3xl font-bold text-[#6E07F3]">
+        YC.
+      </h1>
+      <ul className="hidden md:flex">
+        <li className="cursor-pointer px-4 py-1 text-[#141C3A] transition-colors duration-200 ease-in-out hover:text-[#6E07F3]">
+          About
+        </li>
+        <li className="cursor-pointer px-4 py-1 text-[#141C3A] transition-colors duration-200 ease-in-out hover:text-[#6E07F3]">
+          Projects
+        </li>
+        <li className="cursor-pointer rounded-2xl border-2 border-[#6E07F3] bg-white px-4 py-1 text-[#6E07F3] transition-colors duration-200 ease-in-out hover:bg-[#6E07F3] hover:text-white">
+          Contact
+        </li>
       </ul>
-      <div onClick={handleNav} className='block md:hidden'>
+      <div onClick={handleNav} className="block md:hidden">
         {!nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
-      <div className={!nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-300 bg-white ease-in-out duration-500' : 'fixed left-[-100%]'}>
-        <h1 className='w-full text-3xl font-bold text-[#6E07F3] cursor-pointer m-6'>YC.</h1>
-        <ul className='py-20 p4 uppercase'>
-          <li className='py-1 px-5 text-[#141C3A] cursor-pointer border-b border-[#6E07F3]'>About</li>
-          <li className='py-1 px-5 text-[#141C3A] cursor-pointer border-b border-[#6E07F3]'>Projects</li>
-          <li className='py-1 px-5 text-[#141C3A] cursor-pointer border-b border-[#6E07F3]'>Contact</li>
+      <div
+        className={
+          !nav
+            ? 'fixed left-0 top-0 h-full w-[60%] border-r border-r-gray-300 bg-white duration-500 ease-in-out'
+            : 'fixed left-[-100%]'
+        }
+      >
+        <h1 className="m-6 w-full cursor-pointer text-3xl font-bold text-[#6E07F3]">
+          YC.
+        </h1>
+        <ul className="p4 py-20 uppercase">
+          <li className="cursor-pointer border-b border-[#6E07F3] px-5 py-1 text-[#141C3A]">
+            About
+          </li>
+          <li className="cursor-pointer border-b border-[#6E07F3] px-5 py-1 text-[#141C3A]">
+            Projects
+          </li>
+          <li className="cursor-pointer border-b border-[#6E07F3] px-5 py-1 text-[#141C3A]">
+            Contact
+          </li>
         </ul>
       </div>
     </header>

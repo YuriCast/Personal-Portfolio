@@ -26,7 +26,7 @@ const Navbar = () => {
           Contact
         </li>
       </ul>
-      <div onClick={handleNav} className="block md:hidden">
+      {/* <div onClick={handleNav} className="block md:hidden">
         {!nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
       <div
@@ -50,7 +50,7 @@ const Navbar = () => {
             Contact
           </li>
         </ul>
-      </div>
+      </div> */}
     </header>
   )
 }

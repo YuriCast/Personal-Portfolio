@@ -1,4 +1,5 @@
 import React from 'react'
+import Card from '@/components/card'
 
 const About = () => {
   return (
@@ -15,6 +16,7 @@ const About = () => {
           para criar interfaces intuitivas e agradáveis aos usuários.
         </h6>
       </div>
+      <Card />
     </div>
   )
 }

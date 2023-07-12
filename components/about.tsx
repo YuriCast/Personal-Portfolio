@@ -3,7 +3,7 @@ import Card from '@/components/card'
 
 const About = () => {
   return (
-    <div className="mx-auto h-[1200px] max-w-[1420px] rounded-2xl bg-[#6E07F3] text-white">
+    <div className="mx-auto h-[600px] max-w-full bg-[#6E07F3] text-white">
       <div className="mx-auto flex h-[400px] w-full max-w-[620px] flex-col justify-center text-center">
         <h1 className="font-semibold  md:text-3xl">
           Oi, sou o Yuri. Bem-vindo ao meu portfólio.

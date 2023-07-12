@@ -2,7 +2,8 @@ import React from 'react'
 
 const Card = () => {
   return (
-    <div className="mx-auto mt-24 flex h-[600px] w-[1100px] justify-between rounded-2xl border border-[#E6ECF8] bg-white">
+    <div className="mx-auto mt-24 flex h-[600px] w-[1100px] justify-between rounded-2xl border border-[#E6ECF8] bg-white shadow-sm">
+      {/* colocar sombreamento na borda do card */}
       <div className="grid w-full grid-cols-2 grid-rows-3 text-center text-black">
         <div className="p-4">
           <h1 className="mt-32 text-2xl font-bold">Designer</h1>

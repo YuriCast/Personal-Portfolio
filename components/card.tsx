@@ -2,7 +2,7 @@ import React from 'react'
 
 const Card = () => {
   return (
-    <div className="mx-auto mt-16 flex h-[600px] w-[1100px] justify-between rounded-2xl border border-[#E6ECF8] bg-white shadow-sm">
+    <div className="mx-auto mt-16 flex h-[600px] w-[1300px] justify-between rounded-2xl border border-[#E6ECF8] bg-white shadow-sm">
       <div className="grid w-full grid-cols-2 grid-rows-3 text-center text-black">
         <div className="border-r border-[#E6ECF8] p-4">
           <h1 className="mt-32 text-2xl font-bold">Designer</h1>

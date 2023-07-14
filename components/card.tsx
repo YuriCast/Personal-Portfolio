@@ -11,24 +11,29 @@ const Card = () => {
           <h1 className="mt-32 text-2xl font-bold">Frontend Developer</h1>
         </div>
         <div className="border-r border-[#E6ECF8] p-4">
-          <h3 className="text-[#6E07F3]">Designs dos quais gosto de fazer:</h3>
-          <p className="mt-2">UX, UI, Apps, Web</p>
+          <h3 className="text-lg text-[#6E07F3]">
+            Designs dos quais gosto de fazer:
+          </h3>
+          <p className="mt-2 text-lg">UX, UI, Apps, Web</p>
         </div>
         <div className="p-4">
-          <h3 className="text-[#6E07F3]">Linguagens que utilizo:</h3>
-          <p className="mt-2">
+          <h3 className="text-lg text-[#6E07F3]">Linguagens que utilizo:</h3>
+          <p className="mt-2 text-lg">
             HTML, CSS, Tailwind, Styled-Components, <br /> JavaScript,
             TypeScript, React, React Native
           </p>
         </div>
         <div className="border-r border-[#E6ECF8] p-4">
-          <h3 className="text-[#6E07F3]">Ferramentas de Design:</h3>
-          <p className="mt-2">Figma</p>
+          <h3 className="text-lg text-[#6E07F3]">Ferramentas de Design:</h3>
+          <p className="mt-2 text-lg">Figma</p>
           <p>Font Awesome</p>
+          <p>Canva</p>
         </div>
         <div className="p-4">
-          <h3 className="text-[#6E07F3]">Ferramentas de Desenvolvimento:</h3>
-          <p className="mt-2">VSCode</p>
+          <h3 className="text-lg text-[#6E07F3]">
+            Ferramentas de Desenvolvimento:
+          </h3>
+          <p className="mt-2 text-lg">VSCode</p>
           <p>Git</p>
           <p>Github</p>
           <p>Terminal</p>

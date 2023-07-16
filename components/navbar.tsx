@@ -22,7 +22,7 @@ const Navbar = () => {
         <li className="cursor-pointer px-4 py-1 text-[#141C3A] transition-colors duration-200 ease-in-out hover:text-[#6E07F3]">
           Projects
         </li>
-        <li className="cursor-pointer rounded-2xl border-2 border-[#6E07F3] bg-white px-4 py-1 text-[#6E07F3] transition-colors duration-200 ease-in-out hover:bg-[#6E07F3] hover:text-white">
+        <li className="cursor-pointer rounded-3xl border-2 border-[#6E07F3] bg-white px-4 py-1 text-[#6E07F3] transition-colors duration-200 ease-in-out hover:bg-[#6E07F3] hover:text-white">
           Contact
         </li>
       </ul>
